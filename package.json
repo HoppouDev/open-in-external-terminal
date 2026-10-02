@@ -1,7 +1,7 @@
 {
   "name": "open-in-external-terminal",
   "displayName": "Open In External Terminal",
-  "description": "Allows you to open a given directory in an external terminal in the explorer panel.",
+  "description": "Open any folder from the VS Code Explorer in your external terminal.",
   "version": "0.1.0",
   "license": "MIT",
   "engines": {
