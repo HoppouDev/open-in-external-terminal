@@ -4,6 +4,10 @@
   "description": "Open any folder from the VS Code Explorer in your external terminal.",
   "version": "0.1.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HoppouDev/open-in-external-terminal"
+  },
   "engines": {
     "vscode": "^1.130.0"
   },
