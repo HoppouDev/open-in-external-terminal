@@ -1,0 +1,22 @@
+# https://lefthook.dev/configuration/
+
+pre-commit:
+  parallel: true
+  jobs:
+    - name: check-types
+      glob: "*.ts"
+      run: pnpm run check-types
+
+    - name: lint
+      glob: "*.ts"
+      run: pnpm exec eslint {staged_files}
+
+# git-cliff (cliff.toml) requires conventional commits, otherwise releases fail
+commit-msg:
+  jobs:
+    - name: conventional-commit
+      run: |
+        head -n1 {1} | grep -qE '^(Merge |Revert |(fixup|squash)! |(feat|fix|docs|style|refactor|perf|test|build|ci|chore|revert)(\([^)]+\))?!?: .+)' || {
+          echo "Commit message must follow Conventional Commits, e.g. 'feat: add thing' or 'fix(scope): fix thing'"
+          exit 1
+        }

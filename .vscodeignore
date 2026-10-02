@@ -7,6 +7,7 @@ src/**
 .gitattributes
 .github/**
 cliff.toml
+lefthook.yml
 pnpm-lock.yaml
 pnpm-workspace.yaml
 *.vsix
