@@ -1,0 +1,19 @@
+# Force LF line endings in text files in the repo and working tree
+* text=auto eol=lf
+
+# Macros
+[attr]lfs-file filter=lfs diff=lfs merge=lfs -text
+
+# Images
+*.png  lfs-file
+*.jpg  lfs-file
+*.jpeg lfs-file
+*.gif  lfs-file
+*.webp lfs-file
+*.avif lfs-file
+*.bmp  lfs-file
+*.ico  lfs-file
+*.icns lfs-file
+*.tif  lfs-file
+*.tiff lfs-file
+*.psd  lfs-file
