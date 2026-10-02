@@ -6,11 +6,11 @@ Open any folder from the VS Code Explorer in your external terminal.
 
 <br>
 
-[![Built for VS Code](https://badges.hoppou.dev/badge?title=Built%20for&label=VS%20Code&color=2F80ED&icon=vscodium)](https://code.visualstudio.com/)
-[![Built with TypeScript](https://badges.hoppou.dev/badge?title=Built%20with&label=TypeScript&color=3178C6&icon=typescript)](https://www.typescriptlang.org/)
-[![Bundled with esbuild](https://badges.hoppou.dev/badge?title=Bundled%20with&label=esbuild&color=FFCF00&icon=esbuild)](https://esbuild.github.io/)
-[![Packaged with pnpm](https://badges.hoppou.dev/badge?title=Packaged%20with&label=pnpm&color=F69220&icon=pnpm)](https://pnpm.io/)
-[![CI Passing](https://badges.hoppou.dev/ci/HoppouDev/open-in-external-terminal/ci.yml)](https://github.com/HoppouDev/open-in-external-terminal/actions/workflows/ci.yml)
+[![Built for VS Code](https://img.shields.io/badge/built%20for-VS%20Code-2F80ED?style=for-the-badge&logo=vscodium&logoColor=white)](https://code.visualstudio.com/)
+[![Built with TypeScript](https://img.shields.io/badge/built%20with-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Bundled with esbuild](https://img.shields.io/badge/bundled%20with-esbuild-FFCF00?style=for-the-badge&logo=esbuild&logoColor=white)](https://esbuild.github.io/)
+[![Packaged with pnpm](https://img.shields.io/badge/packaged%20with-pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white)](https://pnpm.io/)
+[![CI](https://img.shields.io/github/actions/workflow/status/HoppouDev/open-in-external-terminal/ci.yml?branch=main&style=for-the-badge&logo=githubactions&logoColor=white&label=CI)](https://github.com/HoppouDev/open-in-external-terminal/actions/workflows/ci.yml)
 
 </div>
 
@@ -32,7 +32,7 @@ Ensure that you meet following minimum requirements before installing:
 
 ## Install
 
-Download the `.vsix` from the [latest release](https://github.com/Hoppou-Legion-Gateway/open-in-external-terminal/releases/latest), then:
+Download the `.vsix` from the [latest release](https://github.com/HoppouDev/open-in-external-terminal/releases/latest), then:
 
 ```sh
 code --install-extension open-in-external-terminal-v<version>.vsix
