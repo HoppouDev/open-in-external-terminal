@@ -1,7 +1,14 @@
 .vscode/**
 node_modules/**
+.pnpm-store/**
 src/**
 .gitignore
+.gitattributes
+.github/**
+cliff.toml
+pnpm-lock.yaml
+pnpm-workspace.yaml
+*.vsix
 .yarnrc
 esbuild.js
 vsc-extension-quickstart.md
