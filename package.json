@@ -3,6 +3,7 @@
   "displayName": "Open In External Terminal",
   "description": "Allows you to open a given directory in an external terminal in the explorer panel.",
   "version": "0.1.0",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.130.0"
   },
