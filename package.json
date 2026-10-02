@@ -48,9 +48,11 @@
     "watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
     "package": "pnpm run check-types && pnpm run lint && node esbuild.js --production",
     "check-types": "tsc --noEmit",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "format": "biome format --write"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.5.15",
     "@types/node": "24.x",
     "@types/vscode": "~1.125.0",
     "@vscode/vsce": "^4.0.0",

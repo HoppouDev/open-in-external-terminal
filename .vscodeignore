@@ -6,6 +6,7 @@ src/**
 .gitignore
 .gitattributes
 .github/**
+biome.json
 cliff.toml
 lefthook.yml
 pnpm-lock.yaml
