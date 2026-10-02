@@ -2,6 +2,7 @@
 node_modules/**
 .pnpm-store/**
 src/**
+.env*
 .gitignore
 .gitattributes
 .github/**
