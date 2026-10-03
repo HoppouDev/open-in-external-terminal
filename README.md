@@ -32,7 +32,7 @@ Ensure that you meet following minimum requirements before installing:
 
 ## Install
 
-Download the `.vsix` from the [latest release](https://github.com/HoppouDev/open-in-external-terminal/releases/latest), then:
+Install from [Open VSX](https://open-vsx.org/extension/HoppouDev/open-in-external-terminal) in VSCodium and other Open VSX based editors, or download the `.vsix` from the [latest release](https://github.com/HoppouDev/open-in-external-terminal/releases/latest), then:
 
 ```sh
 code --install-extension open-in-external-terminal-v<version>.vsix
@@ -61,7 +61,9 @@ Press <kbd>F5</kbd> in VS Code to launch an Extension Development Host with the 
 
 ## Releasing
 
-Bump `version` in `package.json`, commit, then push a matching `v<version>` tag. The release workflow checks that the tag matches `package.json`, packages the `.vsix` and creates the GitHub release with it attached.
+Bump `version` in `package.json`, commit, then push a matching `v<version>` tag. The release workflow checks that the tag matches `package.json`, packages the `.vsix`, publishes it to [Open VSX](https://open-vsx.org/extension/HoppouDev/open-in-external-terminal) and creates the GitHub release with it attached.
+
+Publishing to Open VSX requires an access token from [open-vsx.org](https://open-vsx.org/user-settings/tokens) stored as the `OVSX_PAT` repository secret.
 
 ```sh
 git commit -am "chore: release v0.2.0"
