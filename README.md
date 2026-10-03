@@ -18,7 +18,7 @@ Open any folder from the VS Code Explorer in your external terminal.
 
 ## Features
 
-- **Open in Native Terminal** entry in the Explorer context menu for folders, next to **Open in Integrated Terminal**
+- **Open in External Terminal** entry in the Explorer context menu for folders, next to **Open in Integrated Terminal**
 - Opens your configured external terminal with the right-clicked folder as the working directory
 
 ## Requirements
@@ -40,7 +40,7 @@ code --install-extension open-in-external-terminal-v<version>.vsix
 
 ## Usage
 
-Right-click a folder in the Explorer and choose **Open in Native Terminal**.
+Right-click a folder in the Explorer and choose **Open in External Terminal**.
 
 ## Development
 

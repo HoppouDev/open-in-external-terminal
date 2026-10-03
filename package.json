@@ -22,7 +22,7 @@
     "commands": [
       {
         "command": "openInTerminal",
-        "title": "Open in Native Terminal"
+        "title": "Open in External Terminal"
       }
     ],
     "menus": {
