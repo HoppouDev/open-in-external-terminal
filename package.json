@@ -3,7 +3,7 @@
   "displayName": "Open In External Terminal",
   "description": "Open any folder from the VS Code Explorer in your external terminal.",
   "publisher": "HoppouDev",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "repository": {
     "type": "git",
