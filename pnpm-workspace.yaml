@@ -1,4 +1,5 @@
 allowBuilds:
   '@vscode/vsce-sign': false
   esbuild: true
+  keytar: false
   lefthook: true
