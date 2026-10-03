@@ -60,6 +60,11 @@ jobs:
       - name: Package extension
         run: pnpm exec vsce package --no-dependencies --out "open-in-external-terminal-$GITHUB_REF_NAME.vsix"
 
+      - name: Publish to Open VSX
+        env:
+          OVSX_PAT: ${{ secrets.OVSX_PAT }}
+        run: pnpm exec ovsx publish "open-in-external-terminal-$GITHUB_REF_NAME.vsix" --skip-duplicate # zizmor: ignore[use-trusted-publishing]
+
       - name: Create GitHub release
         env:
           GH_TOKEN: ${{ github.token }}
